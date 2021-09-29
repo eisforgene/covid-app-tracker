@@ -1,0 +1,40 @@
+{
+  "name": "covid-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "watch": "nodemon server.js",
+    "seed": "node seeds/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mcarieri/covid-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mcarieri/covid-app/issues"
+  },
+  "homepage": "https://github.com/mcarieri/covid-app#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "connect-session-sequelize": "^7.1.2",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^5.3.3",
+    "express-session": "^1.17.2",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.3.0",
+    "sequelize": "^6.6.5",
+    "postcss": "^8.3.6",
+    "tailwindcss": "^2.2.15",
+    "autoprefixer": "^10.3.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
